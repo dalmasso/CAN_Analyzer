@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=dev.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\dev -TC:\CooCox\CoIDE\configuration\ProgramData\dev/arm-gcc-link.ld -g">
+      <target file="dev.elf" lastModified="15e947197bc">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15e947183d9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15e94718483"/>
+         <source file="..\obj\com_pc.o" lastModified="15e94718609"/>
+         <source file="..\obj\main.o" lastModified="15e947186b3"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15e94718767"/>
+         <source file="..\obj\timers.o" lastModified="15e947187f3"/>
+         <source file="..\obj\tasks.o" lastModified="15e947188c5"/>
+         <source file="..\obj\leds.o" lastModified="15e94718951"/>
+         <source file="..\obj\process_can_inj.o" lastModified="15e94718a4b"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15e94718b09"/>
+         <source file="..\obj\list.o" lastModified="15e94718ba9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15e94718c17"/>
+         <source file="..\obj\process_can.o" lastModified="15e94718dcf"/>
+         <source file="..\obj\port.o" lastModified="15e94718e6f"/>
+         <source file="..\obj\queue.o" lastModified="15e94718f74"/>
+         <source file="..\obj\croutine.o" lastModified="15e94719000"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15e9471908c"/>
+         <source file="..\obj\misc.o" lastModified="15e947190fa"/>
+         <source file="..\obj\com_can.o" lastModified="15e947191ae"/>
+         <source file="..\obj\heap_2.o" lastModified="15e94719280"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15e947193d4"/>
+      </target>
+   </processor>
+</history>
